@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding-left: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cadetblue;
+    
+}
+
+img{
+    width: 10%;
+}
+input{
+    margin: 0;
+    border: none;
+    border-radius: 10%;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    color:red;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    max-width: 400px;
+}
+ul li:hover{
+    background: #ddd;
+}
+.addBtn{
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: cadetblue;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 16%;
+}
+.addBtn:hover{
+    background-color: azure;
+}
+section{
+   padding-left: 60%;
+
+}
+/* clasa pentru marcarea taskurilor realizate*/
+.completed{
+    text-decoration: line-through;
+    color: darkgreen;
+}
+.delete-btn{
+    margin-left:10px ;
+    color: black;
+    font-weight: bold ;
+    float: right;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    body
+    {
+        padding-left:0 ;
+        padding-right: 0;
+    }
+    section{
+        padding-left: 0;
+        padding-right: 0;
+        padding: 20px;
+    }
+}
